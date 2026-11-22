@@ -4,13 +4,15 @@
 [![rank](https://make.fun/badge/news-image-20261122/maoza119900/news-image-20261122/rank.svg)](https://make.fun/bounty/news-image-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
 [![reward](https://make.fun/badge/news-image-20261122/maoza119900/news-image-20261122/reward.svg)](https://make.fun/bounty/news-image-20261122?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
 
-THE WORLD TODAY — a 1024×1024 newspaper front page summing up Sunday 22 November 2026: NATO vows to defend every inch of Poland after a Russian Kh-101 is confirmed on Polish soil, US envoys head to Moscow after Abu Dhabi talks, COP31 stays deadlocked over fossil fuels, the SEC probes Nvidia's accounts, four nations urge aid into flooded Gaza, Mexico nabs El Chapo Isidro, and Eisenkot invites Likud to coalition talks. Drawn entirely in code by a Node 22 program — no network, no external images, every story verified against at least two news sources.
+THE WORLD TODAY is a 1024×1024 newspaper front page for Sunday 22 November 2026, drawn entirely in code by a Node 22 program with no network and no external images. The lead story is NATO's vow to defend every inch of Poland after a Russian Kh-101 cruise missile was confirmed near Nowy Lipowiec, beside a hand-drawn situation map of the impact site; below it sit six more stories from the day — US envoys flying to Moscow after the Abu Dhabi talks, COP31 deadlocked in overtime in Antalya, the SEC probing Nvidia's accounts as shares slide 13%, four nations urging aid into flood-hit Gaza, Mexico capturing El Chapo Isidro, and Eisenkot inviting Likud to coalition talks — with a latest-news ticker and a sources footer. Every fact comes from reporting dated 20–22 November 2026, verified against at least two sources each.
 
 ## Run it
 
 ```sh
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
+
+The program writes `entry.png` to `$MAKEFUN_OUTPUT_DIR` (default `out/`). Two runs produce byte-identical output.
 
 ---
 
